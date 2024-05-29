@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(11, 206, 255);
+
+}
+.wrapper{
+    width: 700px;
+    background-color: white;
+    columns: #fff;
+    border-radius: 20px;
+    padding: 40px 50px;
+    box-sizing: border-box;
+}
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+.wrapper p {
+    
+    text-align: center;
+}
+
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+
+    
+}
+.left{
+    float:left;
+  }
+  
+  .clear{
+    clear:both;
+  }
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: black;
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 20px 45px 20px 20px;
+    border-style: outset;
+    
+
+}
+.wrapper .rember-forget{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+ .rember-forget label input{
+    accent-color: #fff;
+    margin-right: 3px;
+ }
+ .rember-forget a{
+    color: #423737;
+    text-decoration: none;
+ }
+ .wrapper .btn{
+    width: 25%;
+    height: 45px;
+    background: #8ea8f4;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+   margin-top: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+ }
+.input-box .w3review{
+    height:130px ;
+    width: 600px;
+
+}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="">
+            <h1>Contact us </h1>
+          
+            <div class="input-box">
+                <input type="text" placeholder="FULL NAME">
+            </div>
+            <div class="input-box">
+                <input type="email" placeholder="Email">
+            </div>
+            
+            <div class="input-box">
+                <input type="number" placeholder="tel xxx xxx xxx ...">
+            </div>
+            <div class="input-box">
+                <textarea class="w3review"   name="w3review" rows="4" cols="50">Write your message here! </textarea> </div>
+        
+           <button type="submit" class="btn"  >Send </button>
+          
+        </form>
+    </div>
+</body>
+</html>

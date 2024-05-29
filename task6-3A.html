@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox </title>
+    <style>
+        body, html {
+    margin: 0;
+    height: 100%;
+font-family: Arial, sans-serif; 
+}
+
+.flex-container {
+    display: flex; 
+    height: 100%;
+}
+
+.flex-item {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    color: white; 
+    font-size: 24px; 
+}
+
+#first-part {
+    background-color: #FFA500; 
+}
+
+#second-part {
+    background-color: #0000FF; 
+}
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item" id="first-part">
+            First Part
+        </div>
+        <div class="flex-item" id="second-part">
+            Second Part
+        </div>
+    </div>
+</body>
+</html>
